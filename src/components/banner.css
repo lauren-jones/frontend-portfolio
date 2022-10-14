@@ -1,4 +1,4 @@
-.About {
+.Banner {
   position: relative;
   height: 600px;
   overflow: hidden;
@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.About img {
+.Banner img {
   object-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,17 +22,17 @@
   z-index: -1;
 }
 
-.About-details {
+.Banner-details {
   margin: 40px;
 }
 
-.About-details h4 {
+.Banner-details h4 {
   font-family: var(--accent-font);
   font-size: 3rem;
   line-height: 0em;
 }
 
-.About-details h2 {
+.Banner-details h2 {
   text-transform: uppercase;
   font-family: var(--primary-font);
   font-weight: 300;
@@ -40,7 +40,7 @@
   line-height: 0.1em;
 }
 
-.About-details p {
+.Banner-details p {
   max-width: 500px;
   font-family: var(--secondary-font);
   font-size: 0.85rem;
@@ -48,7 +48,7 @@
 }
 
 @media only screen and (max-width: 780px) {
-  .About img {
+  .Banner img {
     transform: translateY(0%);
   }
 }

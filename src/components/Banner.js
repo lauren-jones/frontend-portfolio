@@ -1,11 +1,11 @@
 import React from "react";
-import "./about.css";
+import "./banner.css";
 
-export default function About() {
+export default function Banner() {
   return (
-    <section className="About">
+    <section className="Banner">
       <img src="/images/image.png" alt="" />
-      <div className="About-details">
+      <div className="Banner-details">
         <h4>frontend dev</h4>
         <h2>Portfolio</h2>
         <p>
