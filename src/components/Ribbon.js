@@ -7,6 +7,10 @@ export default function Ribbon() {
   return (
     <div className="Ribbon">
       <ul>
+        <FontAwesomeIcon
+          icon={faCircle}
+          className="Ribbon-dot"
+        ></FontAwesomeIcon>
         <li>React</li>
         <FontAwesomeIcon
           icon={faCircle}
