@@ -1,6 +1,6 @@
 .Ribbon {
-  background: var(--secondary-color);
-  height: 70px;
+  background: var(--blush-color);
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,22 +9,54 @@
 }
 
 .Ribbon ul {
+  font-family: var(--secondary-font);
   text-transform: uppercase;
-  font-family: var(--primary-font);
-  font-weight: 300;
-  font-size: 1.3rem;
+  padding: 0 10px;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: var(--primary-color);
+  text-decoration: none;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .Ribbon li {
-  padding: 0 40px;
+  padding: 0 30px;
+}
+
+.Ribbon p {
+  font-family: var(--accent-font);
+  font-size: 1.75rem;
+  line-height: 0.5em;
+  padding-right: 10px;
 }
 
 .Ribbon-dot {
   font-size: 4px;
+}
+
+@media only screen and (max-width: 900px) {
+  .Ribbon {
+    height: 9vh;
+  }
+
+  .Ribbon p {
+    display: none;
+  }
+
+  .Ribbon ul {
+    flex-wrap: wrap;
+    row-gap: 7px;
+  }
+
+  .Ribbon li {
+    padding: 0 30px;
+  }
+
+  .Ribbon-dot {
+    display: none;
+  }
 }

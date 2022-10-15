@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--blush-color);
+  background: var(--background-color);
   border-bottom: 1px solid var(--primary-color);
+  height: 8vh;
 }
 
 .Header ul {
@@ -26,13 +27,6 @@
 
 .Header li a:hover {
   color: var(--hover-color);
-}
-
-.Header p {
-  font-family: var(--accent-font);
-  font-size: 1.75rem;
-  line-height: 0.5em;
-  padding-right: 20px;
 }
 
 @media only screen and (max-width: 780px) {

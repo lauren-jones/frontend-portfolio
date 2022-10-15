@@ -6,11 +6,8 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 export default function Ribbon() {
   return (
     <div className="Ribbon">
+      <p>skilled with:</p>
       <ul>
-        <FontAwesomeIcon
-          icon={faCircle}
-          className="Ribbon-dot"
-        ></FontAwesomeIcon>
         <li>React</li>
         <FontAwesomeIcon
           icon={faCircle}
@@ -26,26 +23,17 @@ export default function Ribbon() {
           icon={faCircle}
           className="Ribbon-dot"
         ></FontAwesomeIcon>
-        <li>Node.js</li>
-        <FontAwesomeIcon
-          icon={faCircle}
-          className="Ribbon-dot"
-        ></FontAwesomeIcon>
         <li>Graph QL</li>
         <FontAwesomeIcon
           icon={faCircle}
           className="Ribbon-dot"
         ></FontAwesomeIcon>
-        <li>CSS Grid</li>
+        <li>Git</li>
         <FontAwesomeIcon
           icon={faCircle}
           className="Ribbon-dot"
         ></FontAwesomeIcon>
-        <li>Flex Box</li>
-        <FontAwesomeIcon
-          icon={faCircle}
-          className="Ribbon-dot"
-        ></FontAwesomeIcon>
+        <li>REST API</li>
       </ul>
     </div>
   );

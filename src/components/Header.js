@@ -4,19 +4,21 @@ import "./header.css";
 export default function Header() {
   return (
     <header className="Header">
-      <p>get right to it:</p>
       <ul>
         <li>
-          <a href="/">01 / About</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="/">02 / Work</a>
+          <a href="/">About</a>
         </li>
         <li>
-          <a href="/">03 / Tech</a>
+          <a href="/">Work</a>
         </li>
         <li>
-          <a href="/">04 / Contact</a>
+          <a href="/">Tech</a>
+        </li>
+        <li>
+          <a href="/">Contact</a>
         </li>
       </ul>
     </header>
