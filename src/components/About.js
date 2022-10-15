@@ -5,7 +5,7 @@ import { faGithubAlt, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
-    <section className="About">
+    <section className="About" id="About">
       <div className="About-image">
         <div className="About-image-container">
           <img src="/images/profile.png" alt="lauren jones" />

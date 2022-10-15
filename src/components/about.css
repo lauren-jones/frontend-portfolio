@@ -20,8 +20,8 @@
 .About h2 {
   text-transform: uppercase;
   font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 1.6rem;
+  font-weight: 400;
+  font-size: 1.9rem;
   line-height: 0em;
 }
 
@@ -93,6 +93,7 @@
   .About {
     flex-wrap: wrap;
     border-bottom: none;
+    height: auto;
   }
 
   .About-image {
