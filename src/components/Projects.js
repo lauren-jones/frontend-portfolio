@@ -54,7 +54,7 @@ export default function Projects() {
     },
   ];
   return (
-    <div className="Projects">
+    <div className="Projects" id="Projects">
       <h3 className="Projects-subtitle">featured</h3>
       <h2 className="Projects-section-title">Projects</h2>
       <div className="Projects-container">

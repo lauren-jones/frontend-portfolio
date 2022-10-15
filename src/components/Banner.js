@@ -3,7 +3,7 @@ import "./banner.css";
 
 export default function Banner() {
   return (
-    <section className="Banner">
+    <section className="Banner" id="Home">
       <img src="/images/image.png" alt="" />
       <div className="Banner-details">
         <h4>frontend dev</h4>

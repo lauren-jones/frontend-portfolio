@@ -5,6 +5,11 @@
   max-width: 400px;
 }
 
+.Project:hover {
+  background: var(--blush-color);
+  transition: ease-in-out;
+}
+
 .Project-name {
   text-transform: uppercase;
   font-family: var(--primary-font);

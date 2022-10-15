@@ -6,19 +6,16 @@ export default function Header() {
     <header className="Header">
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="#Home">Home</a>
         </li>
         <li>
-          <a href="/">About</a>
+          <a href="#About">About</a>
         </li>
         <li>
-          <a href="/">Work</a>
+          <a href="#Projects">Work</a>
         </li>
         <li>
-          <a href="/">Tech</a>
-        </li>
-        <li>
-          <a href="/">Contact</a>
+          <a href="#Contact">Contact</a>
         </li>
       </ul>
     </header>

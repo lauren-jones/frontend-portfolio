@@ -3,7 +3,7 @@ import "./contact.css";
 
 export default function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact" id="Contact">
       <h2 className="Contact-title">So, what's next?</h2>
       <h4 className="Contact-subtitle">
         Well, my inbox is always open! If you have a new opportunity, question
