@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Ribbon from "./components/Ribbon";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Ribbon />
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 }

@@ -1,0 +1,51 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/public/images/leaves.gif");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.Contact-title {
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1.9rem;
+  color: white;
+  line-height: 0;
+}
+
+.Contact-subtitle {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: white;
+  max-width: 450px;
+  text-align: center;
+  line-height: 2em;
+}
+
+.Contact button a {
+  font-family: var(--secondary-font);
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.Contact button {
+  margin-top: 30px;
+  text-align: center;
+  background: var(--blush-color);
+  border: 1px solid var(--primary-color);
+  padding: 10px 40px;
+  border-radius: 10px;
+}
