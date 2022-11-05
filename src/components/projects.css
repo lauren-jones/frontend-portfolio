@@ -36,12 +36,11 @@
 
 @media only screen and (max-width: 1260px) {
   .Projects-container {
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "project-one project-two"
-      "project-three project-four"
-      "project-five project-six";
+      "project-three project-four";
   }
 }
 
