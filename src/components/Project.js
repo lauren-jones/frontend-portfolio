@@ -8,10 +8,14 @@ export default function Project(props) {
       <p className="Project-description">{props.project.description}</p>
       <ul className="Project-links">
         <li>
-          <a href={props.project.source_code}>source code</a>
+          <a href={props.project.source_code} target="_blank" rel="noreferrer">
+            source code
+          </a>
         </li>
         <li>
-          <a href={props.project.live_preview}>live preview</a>
+          <a href={props.project.live_preview} target="_blank" rel="noreferrer">
+            live preview
+          </a>
         </li>
       </ul>
       <div className="Project-number">{props.project.number}</div>

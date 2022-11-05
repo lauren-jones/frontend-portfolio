@@ -18,12 +18,12 @@ export default function Ribbon() {
           icon={faCircle}
           className="Ribbon-dot"
         ></FontAwesomeIcon>
-        <li>Next JS</li>
+        <li>HTML</li>
         <FontAwesomeIcon
           icon={faCircle}
           className="Ribbon-dot"
         ></FontAwesomeIcon>
-        <li>Graph QL</li>
+        <li>CSS</li>
         <FontAwesomeIcon
           icon={faCircle}
           className="Ribbon-dot"
