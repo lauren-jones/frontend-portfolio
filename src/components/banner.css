@@ -16,9 +16,9 @@
   position: absolute;
   top: 0;
   width: 100%;
+  height: 100%;
   opacity: 70%;
   inset: 0px auto;
-  transform: translateY(-30%);
   z-index: -1;
 }
 
@@ -45,10 +45,4 @@
   font-family: var(--secondary-font);
   font-size: 0.85rem;
   line-height: 1.7em;
-}
-
-@media only screen and (max-width: 780px) {
-  .Banner img {
-    transform: translateY(0%);
-  }
 }
