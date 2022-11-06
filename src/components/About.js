@@ -13,7 +13,7 @@ export default function About() {
       </div>
       <div className="About-text">
         <h2>Lauren Jones</h2>
-        <h4>Junior Developer</h4>
+        <h4>Software Developer</h4>
         <p>
           Prior to changing career direction, I had spent the last ten years
           delivering business advisory services to clients across the UK. I hold
@@ -27,8 +27,8 @@ export default function About() {
           </a>{" "}
           bootcamp and joined a large FinTech company as an Academy Developer.
           My current work experience and personal projects are focused on
-          frontend development, but I am keen to progress to full stack and
-          mobile development.
+          frontend development, but I am keen to develop my skills with other
+          technologies.
         </p>
         <ul>
           <li>
