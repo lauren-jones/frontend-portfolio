@@ -37,7 +37,7 @@
 
 .About-text p {
   width: 70%;
-  text-align: justify;
+  text-align: center;
   font-family: var(--secondary-font);
   font-size: 0.85rem;
   line-height: 1.7em;

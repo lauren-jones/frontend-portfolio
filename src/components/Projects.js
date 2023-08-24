@@ -22,12 +22,12 @@ export default function Projects() {
         "https://capable-stroopwafel-e97bb1.netlify.app/?path=/story/accordion--default",
     },
     {
-      name: "React Weather App",
+      name: "Pomodoro Timer",
       description:
-        "A simple weather app for thousands of cities around the world, with an integrated 5-day forecast. Built with React, Axios and the OpenWeather REST API.",
+        "A simple Pomodoro Timer (albeit with time intervals set to 60 seconds work, 5 seconds break for ease of review). Built with Next.JS and Tailwind CSS.",
       number: 3,
-      source_code: "https://github.com/lauren-jones/react-weather-app",
-      live_preview: "https://voluble-cobbler-ef636c.netlify.app/",
+      source_code: "https://github.com/lauren-jones/pomodoro-timer",
+      live_preview: "https://stately-crostata-a2bbe2.netlify.app/",
     },
   ];
   return (
@@ -36,13 +36,13 @@ export default function Projects() {
       <h2 className="Projects-section-title">Projects</h2>
       <div className="Projects-container">
         <div className="Projects-one">
-          <Project project={projects[0]} className="project-one" />
+          <Project project={projects[0]} />
         </div>
         <div className="Projects-two">
-          <Project project={projects[1]} className="project-two" />
+          <Project project={projects[1]} />
         </div>
         <div className="Projects-three">
-          <Project project={projects[2]} className="project-three" />
+          <Project project={projects[2]} />
         </div>
       </div>
     </div>
